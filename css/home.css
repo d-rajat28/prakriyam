@@ -1,0 +1,692 @@
+.first_container{
+    width: 100vw;
+    height:100%;
+    padding: 5px;
+    background-image: -webkit-linear-gradient(left,rgb(196, 227, 240) 60% ,rgb(240, 212, 212) );
+
+}
+.home_first_title_img{
+    position: absolute;
+    top: 37px;
+    left: 180px;
+}
+.media_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left_media_content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 20px;
+}
+.right_media_content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.service_container{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.home_service_title_img{
+    position: absolute;
+    top: 38px;
+    left: 280px;
+    z-index: -1;
+}
+
+.left_service{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right_service{
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.para_container{
+    font-size: 18px;
+    font-weight: 400;
+}
+.arrow_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.explore_section{
+    width: 100vw;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.explore_container{
+    width: 95%;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F6F6F6;
+    
+}
+.explore{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap:20px;
+    border: 0.1px solid gainsboro;
+    border-radius: 2%;
+    
+}
+.icon_container{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore_btn_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.empty_circle{
+    width: 30px;
+    height:30px;
+    background-color: #DFD4F5;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    opacity: 40%;
+}
+.ex_para{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about_container{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.left_about{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+
+.right_about{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.home_about_title_img{
+    position: absolute;
+    top: 38px;
+    left: 270px;
+    z-index: -1;
+}
+.check_para{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 20px;
+    align-items: center;
+}
+.about_para_container{
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+
+.core_section{
+    width: 100vw;
+    height:100%;
+    padding-top: 100px;
+    background-image: -webkit-linear-gradient(left,rgb(240, 212, 212) 70% ,rgb(196, 227, 240) );
+}
+
+.core_conatiner{
+    width:100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.right_core{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+.left_core{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.left_core .heading{
+    height: 150px;
+}
+.home_core_title_img{
+    position: absolute;
+    top: 106px;
+    
+    
+}
+
+.core_para_container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+}
+.count_container{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    font-weight: 900;
+}
+.market_container{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.left_market{
+    width: 50%;
+    height: 100%;
+    display: block;
+}
+.right_market{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: start;
+}
+.home_digital_title_img{
+    position: absolute;
+    top: 109px;
+    left: 55px;
+    z-index: -1;
+}
+
+.market_para_container{
+    width: 500px;
+    display: block;
+    
+}
+
+.price_section{
+    width: 100%;
+    height: 100%;  
+}
+
+.price_container{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    margin-top: 30px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    
+}
+.price_container > heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_pricing_title_img{
+    position: absolute;
+    top: 45px;
+    left: 380px;
+    
+}
+.plan_container{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+.plan{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: white;
+    border: 0.2px solid rgb(171, 170, 170);
+    border-radius: 2%;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plan_price{
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.plan_feature{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.check_plan{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+
+.check_circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border: 0.2px solid rgb(171, 170, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan_btn{
+    width: 150px;
+    height: 50px;
+    border: 0.5px solid red;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan_title p{
+    color: darkgrey;
+    font-size: 16px;
+    font-weight: 300;
+}
+.check_circle{
+    color: red;
+}
+.line{
+    width: 200px;
+    height:0.5px;
+    color: darkgray;
+    background-color: rgb(114, 113, 113);
+    border-width: 0;   
+}
+
+.grow_section{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 999;
+    top: 100px;
+}
+
+.grow_bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 50px;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.grow_container{
+    width: 90vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    border-top: 5px solid rgb(45, 45, 45);
+    border-radius: 2%;
+}
+
+.grow_top{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5%;
+    position: relative;
+    color: white;
+}
+.home_grow_title_img{
+    position: absolute;
+    top: 75px;
+    left: 820px;
+}
+.grow_heading{
+    width: fit-content;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 900;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.semi-circle{
+    height: 5rem;
+    width: 10rem;
+    border-radius: 5rem 5rem 0 0;
+    background-color: red;
+    position: absolute;
+    top: 280px;
+}
+
+@media  (max-width: 1143px) {
+    .home_about_title_img{
+        display: none;
+    }
+    .home_first_title_img{
+        display: none;
+    }
+    .home_service_title_img{
+        display: none;
+    }
+    .home_core_title_img{
+        display: none;
+    }
+    .home_digital_title_img{
+        display: none;
+    }
+    .home_grow_title_img{
+        display: none;
+    }
+    .home_pricing_title_img{
+        display: none;
+    }
+} 
+@media (max-width:1112px) {
+    .semi-circle{
+    top: 320px
+    }
+}
+
+@media (max-width: 992px) {
+    .media_content{
+        flex-direction: column;
+        align-items: start;
+        padding-top: 80px;
+        padding-left: 20px;
+    }
+    .right_media_content{
+        justify-content: start;
+        padding-top: 50px;
+    }
+
+    .service_container{
+        flex-flow: column;
+        align-items: start;
+    }
+    .left_service{
+        width: 100%;
+    }
+    .right_service{
+        width: 100%;
+    }
+    .explore_container{
+        flex-direction: row;
+        flex-direction: column;
+    }
+    .about_container{
+        flex-direction: column;
+        align-items: start;
+    }
+    .core_conatiner{
+        flex-direction: column;
+        align-items: start;
+    }
+    .market_container{
+        flex-direction:column;
+    align-items: start;
+    }
+    .right_market{
+        width: 90%;
+        padding: 0px;
+    }
+    .market_para_container{
+        width: 90%;
+    }
+
+    .plan_container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+}
+
+.explore:hover{
+    background-color: red;
+    color: white;
+}
+    
+.home_circle{
+    position: absolute;
+    z-index: 999;
+    top: 150px;
+    left: 400px;
+    animation-name: circle;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes circle {
+    0%{
+         top: 150px;
+    left: 400px;
+    }
+    50%{
+         top: 150px;
+    left: 500px;
+    }
+    100%{
+        top: 150px;
+    left: 400px;
+    }
+}
+
+.home_triangle{
+    position: absolute;
+    left: 60px;
+    top: 400px;
+    animation-name: home_triangle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes home_triangle {
+    0% {
+        left: 60px;
+        top: 400px;
+    }
+    50%{
+        left: 60px;
+        top: 380px;
+    }
+    100%{
+        left: 60px;
+        top: 400px;
+    }
+}
+
+.home_rec{
+    position: absolute;
+    z-index: 9;
+    top: 360px;
+    left:1080px;
+    animation-name: home_rec;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes home_rec {
+    0% {
+        top: 360px;
+    left:1080px;
+    }
+    50%{
+        top: 340px;
+        left:1060px;
+    }
+    100%{
+        top: 360px;
+        left:1080px;
+    }
+}
+
+.home_half-circle{
+    position: absolute;
+    left: 550px;
+    top: 650px;
+    animation-name: half;
+    animation-duration: 6s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.about_half-circle{
+    position: absolute;
+    z-index: 9999;
+    left: 1050px;
+    animation-name: half;
+    animation-duration: 6s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.core_circle{
+    position: absolute;
+    z-index: 99;
+    left: 500px;
+    animation-name: core_circle;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+
+@keyframes core_circle {
+    0%{
+    left: 500px;
+    }
+    50%{
+    left: 600px;
+    }
+    100%{
+    left: 500px;
+    }
+}
+.price_half-circle{
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+    left: 0px;
+    animation-name: half;
+    animation-duration: 6s;
+    animation-delay: -1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
